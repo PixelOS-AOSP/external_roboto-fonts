@@ -38,16 +38,3 @@ filegroup {
         "*.ttf",
     ],
 }
-
-prebuilt_font {
-    name: "Roboto-Regular.ttf",
-    src: "Roboto-Regular.ttf",
-    // These symlinks are for backward compatibility.
-    symlinks: ["DroidSans.ttf", "DroidSans-Bold.ttf"],
-}
-
-// This static version of fonts are for backward compatibility.
-prebuilt_font {
-    name: "RobotoStatic-Regular.ttf",
-    src: "RobotoStatic-Regular.ttf",
-}
